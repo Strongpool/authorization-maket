@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Half-real Authorizaton</title>
+    <script src="./script/js/api.js"></script>
+    <script src="./script/js/main.js"></script>
+    <link rel="stylesheet" href="./style/css/main.css">
+</head>
+<body>
+    <form id="register-form">
+        <input name="login" type="text" placeholder="Введите логин">
+        <input name="email" type="email" placeholder="Введите почту">
+        <input name="password" type="password" placeholder="Введите пароль">
+        <button type="submit">Создать</button>
+    </form>
+    <form id="login-form">
+        <input name="email" type="email" placeholder="Введите почту">
+        <input name="password" type="password" placeholder="Введите пароль">
+        <button type="submit">Войти</button>
+    </form>
+    <p id="out"></p>
+    <button type="button" id="logout-btn" hidden>Выйти</button>
+</body>
+</html>
